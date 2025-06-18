@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DreamPortalTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UI Functional Tests(failed)">
+    <classes>
+      <class name="com.dreamportal.tests.DreamsDiaryPageTest">
+        <methods>
+          <include name="logPageTitle"/>
+          <include name="validateDreamsDiaryPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dreamportal.tests.DreamsDiaryPageTest -->
+      <class name="com.dreamportal.tests.IndexPageTest">
+        <methods>
+          <include name="logPageTitle"/>
+          <include name="testIndexPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dreamportal.tests.IndexPageTest -->
+    </classes>
+  </test> <!-- UI Functional Tests(failed) -->
+</suite> <!-- Failed suite [DreamPortalTestSuite] -->
